@@ -34,16 +34,18 @@ https://github.com/alshoja/ionic-smart-home-app.git
 
 <a target="_blank" href="#"><img src="https://i.ibb.co/D42KJ5C/iot1.png"/></a>
 
-<a target="_blank" href="#"><img src="https://i.ibb.co/ctSGcsS/iot2.png/></a>
-  
+<a target="_blank" href="#"><img src="https://i.ibb.co/ctSGcsS/iot2.png"/></a>
+
 <a target="_blank" href="#"><img src="https://i.ibb.co/pLfjb5Z/iot3.png"/></a>
+  
+
 
 
 
 ## Built With
 
-* [Ionic](https://ionicframework.com/) -framework.
-* [NodeMcu]https://www.nodemcu.com/index_en.html) - Device code will be updated soon.
+* [Ionic](https://ionicframework.com/) -Framework.
+* [NodeMcu](https://www.nodemcu.com/index_en.html) - Device code will be updated soon.
 
 
 
