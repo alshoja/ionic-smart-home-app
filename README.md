@@ -1,5 +1,5 @@
 
-# Node MCU controlled Android App for Smart Home Purpose
+# Android App for Smart Home with Node Mcu
 
 ## Getting Started
 
