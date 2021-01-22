@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>NexgeN Switches</ion-card-subtitle>
+      <ion-card-title>Smart Room</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-img style="width: 50%;" src="assets/nexgen.png"></ion-img>
+      Welcome to your Smart Room Application.
+      From here you are able to control all your Home Appliances.
+      Welcome to the future
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item class="ion-activated">
+      <ion-icon *ngIf="!online" [ngStyle]="{'color':backcolor}" name="warning" slot="start"></ion-icon>
+      <ion-icon *ngIf="online" [ngStyle]="{'color':backcolor}" name="wifi-sharp" slot="start"></ion-icon>
+      <ion-label>{{status}}</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>

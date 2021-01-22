@@ -1,0 +1,7 @@
+{
+  "name": "nexgen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Settings</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Device Names</ion-card-subtitle>
+      <!-- <ion-card-title>Settings</ion-card-title> -->
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- write something here -->
+      <ion-item>
+        <ion-label position="stacked">Appliances-1</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Appliances-2</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <br>
+      <ion-button size="small" (click)="addConfig('a','b','192.168')" slot="end" color="tertiary">
+        Save
+      </ion-button>
+      <ion-button size="small" (click)="getData()" slot="end" color="tertiary">
+        get
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Manage Server</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- write something here -->
+      <ion-item>
+        <ion-label position="stacked">Your Device IP</ion-label>
+        <ion-input value="{{myIp}}" disabled="true" type="url"></ion-input>
+      </ion-item>
+      <br>
+    </ion-card-content>
+
+
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Contact Us</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- write something here -->
+      <ion-item>
+        <ion-label position="stacked">Mobile</ion-label>
+        <ion-input value="{{phone}}" disabled="true" type="url"></ion-input>
+      </ion-item>
+      <br>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
