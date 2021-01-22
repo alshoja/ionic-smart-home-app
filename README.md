@@ -58,13 +58,11 @@ Please read [CONTRIBUTING.md](https://github.com/alshoja/Income-Expence-Manager/
 ## Authors
 
 * **Alshoja M ikbal** - *Initial work* - [Alshoja ](https://github.com/alshoja)
-* **Muzammil Khan ** - *Initial work* - [MKhan ](https://github.com/muzammilmkhan)
+* **Muzammil Khan** - *Initial work* - [MKhan ](https://github.com/muzammilmkhan)
 
 
 ## Donations
 [Donations](https://www.paypal.me/alshoja)
-
-
 
 
 
