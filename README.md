@@ -46,7 +46,7 @@ https://github.com/alshoja/ionic-smart-home-app.git
 
 * [Ionic](https://ionicframework.com/) -Framework.
 * [NodeMcu](https://www.nodemcu.com/index_en.html) - Device code will be updated soon.
-
+* [Angular](https://angular.io/) - Integration framework
 
 
 
